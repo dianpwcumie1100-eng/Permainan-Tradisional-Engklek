@@ -1,0 +1,119 @@
+body {
+  font-family: "Comic Sans MS", sans-serif;
+  background: linear-gradient(to bottom right, #a0e9ff, #fceabb);
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  color: #333;
+}
+
+nav {
+  background: #ffb347;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav h1 {
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  background: #ff6f61;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+nav a:hover {
+  background: #ffca28;
+  color: #333;
+}
+
+.page {
+  padding: 40px;
+  text-align: center;
+}
+
+.main-img, .how-img {
+  width: 80%;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: #fdd835;
+  border-radius: 10px;
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffeb3b;
+}
+
+ol {
+  text-align: left;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+footer {
+  background: #ffb347;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+#quiz input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ffb347;
+  width: 80%;
+}
+
+button {
+  background: #ffb347;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff6f61;
+}
+
+.hidden {
+  display: none;
+}
+
+.quote {
+  font-style: italic;
+  background: #fff3cd;
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 20px auto;
+  color: #d17a00;
+}

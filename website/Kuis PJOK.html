@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayo Main Engklek!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 🌈 NAVIGASI -->
+  <nav>
+    <h1>🎯 Ayo Main Engklek!</h1>
+    <ul>
+      <li><a href="#home">Beranda</a></li>
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#how">Cara Bermain</a></li>
+      <li><a href="#quiz">Kuis</a></li>
+      <li><a href="#culture">Nilai Budaya</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🏠 HALAMAN UTAMA -->
+  <section id="home" class="page">
+    <h2>Selamat Datang di Dunia Engklek!</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Engklek.jpg" alt="Permainan Engklek" class="main-img">
+    <p>Yuk belajar dan bermain bersama sambil mengenal permainan tradisional Indonesia yang seru!</p>
+    <div class="buttons">
+      <a href="#about" class="btn">Pelajari Permainan 📘</a>
+      <a href="#quiz" class="btn">Mulai Kuis 🎮</a>
+    </div>
+  </section>
+
+  <!-- 📖 HALAMAN TENTANG -->
+  <section id="about" class="page">
+    <h2>Apa itu Permainan Engklek?</h2>
+    <p>Permainan <b>Engklek</b> adalah permainan tradisional Indonesia yang dimainkan dengan melompat menggunakan satu kaki melewati petak-petak yang digambar di tanah menggunakan kapur. Engklek disebut juga <b>Taplak Gunung</b> di beberapa daerah.</p>
+    <p>Permainan ini melatih keseimbangan, ketangkasan, dan sportivitas. Selain menyenangkan, engklek juga mengajarkan anak-anak untuk sabar, jujur, dan bekerja sama.</p>
+  </section>
+
+  <!-- 🎮 HALAMAN CARA BERMAIN -->
+  <section id="how" class="page">
+    <h2>Cara Bermain Engklek</h2>
+    <ol>
+      <li>Gambarlah petak engklek di tanah menggunakan kapur.</li>
+      <li>Gunakan pecahan genting atau batu kecil sebagai <b>gaco</b>.</li>
+      <li>Pemain melempar gaco ke petak pertama dan melompat dengan satu kaki tanpa menginjak garis.</li>
+      <li>Setelah menyelesaikan semua petak, pemain mendapatkan giliran tambahan.</li>
+      <li>Pemain yang paling banyak menguasai petak adalah pemenangnya!</li>
+    </ol>
+    <p><b>Tips:</b> Jaga keseimbangan, jangan sampai jatuh atau menginjak garis! 😊</p>
+    <img src="https://cdn.pixabay.com/photo/2014/12/10/23/03/hopscotch-563948_960_720.jpg" alt="Anak bermain engklek" class="how-img">
+  </section>
+
+  <!-- 🧩 HALAMAN KUIS -->
+  <section id="quiz" class="page">
+    <h2>Kuis Engklek</h2>
+    <div id="login-section">
+      <input type="text" id="nama" placeholder="Masukkan Nama">
+      <input type="text" id="kelas" placeholder="Masukkan Kelas">
+      <button onclick="mulaiKuis()">Mulai 🎮</button>
+    </div>
+    <div id="quiz-section" class="hidden">
+      <h3 id="pertanyaan"></h3>
+      <div id="pilihan"></div>
+      <button id="nextBtn" onclick="selanjutnya()">Selanjutnya ➡️</button>
+    </div>
+    <div id="hasil-section" class="hidden">
+      <h3>🎉 Hasil Kuis 🎉</h3>
+      <p id="hasil"></p>
+      <button onclick="ulangKuis()">Ulangi 🔁</button>
+    </div>
+  </section>
+
+  <!-- ❤️ HALAMAN NILAI BUDAYA -->
+  <section id="culture" class="page">
+    <h2>Nilai Budaya dalam Permainan Engklek</h2>
+    <ul>
+      <li>🤝 Kerjasama dengan teman saat bermain.</li>
+      <li>⚖️ Kejujuran dalam mengikuti aturan.</li>
+      <li>💪 Semangat kebersamaan dan sportivitas.</li>
+    </ul>
+    <p class="quote">"Main Engklek, Yuk! Sehat dan Ceria Bersama Teman!" 🌞</p>
+  </section>
+
+  <!-- 🌍 FOOTER -->
+  <footer>
+    Website ini dibuat untuk mengenal dan melestarikan permainan tradisional Indonesia. 🇮🇩
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
